@@ -1,0 +1,27 @@
+﻿.chatWindowContainer
+{
+	position: relative;
+	height: 300px;
+	border: none;
+}
+
+.leftUserList
+{
+	position: absolute;
+	left: 0px;
+	width: 200px;
+	height: 300px;
+	border-style: solid;
+	border-width: thin;
+	overflow: auto;
+	background-color:#98BF21;
+}
+
+.righChatWindow
+{
+	position: fixed;
+	left: 202px;
+	text-align: left; /* depends on element width */
+	height: 170px;
+	bottom: -22px;
+}
